@@ -73,7 +73,7 @@ body {
   position: absolute;
   top: 50%;
   right: -25px;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(180deg);
   font-size: 2.4rem;
   color: var(--toggle-color);
   background-color: var(--primary-color);
@@ -92,7 +92,7 @@ body {
   color: var(--primary-color);
 }
 .sidebar.close .sidebar-header .sidebar-toggle {
-  transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%);
 }
 .logo {
   display: flex;
